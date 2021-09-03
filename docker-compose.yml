@@ -1,0 +1,8 @@
+# local開発用
+version: "3.7"
+services:
+  memcached:
+    container_name: memcached_test
+    image: memcached:latest
+    ports:
+      - 11211:11211
